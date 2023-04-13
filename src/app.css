@@ -1,0 +1,66 @@
+body{
+    background-color:#fffbec;
+}
+header{
+    background-color: #763c00;
+    
+}
+#about{
+    background-image: linear-gradient(
+        to right,
+        rgba(255,255,255,1.0),
+        rgba(255,255,255,0.9),
+        rgba(255,255,255,0)
+    ), url('../solar-panel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-image: url('https://www.trunorthsolar.com/wp-content/uploads/2018/08/Kevin-Ellis-Apple-Valley-Solar-Photo.jpg'); */
+}
+
+#contact{
+    background-color:  #fffbec;
+    
+}
+
+.card {
+    background-color:  #fffbec;;
+}
+.card-titles{
+    color: #cd6301 ;
+}
+
+#info{
+    background-color: #763c00;
+    color: #ffcb65
+}
+
+#info .card{
+    background-color:  #fffbec;;
+    color: #000000
+}
+
+.card-button, .contact-us {
+    background-color:  #ffcb65;
+}
+.card-button:hover, .card-button:focus, .contact-us:hover, .contact-us:focus {
+    background-color:  #fbdc9d;
+}
+
+.card{
+    background-color: #fffbec;
+}
+
+#info img{
+   
+    object-fit: cover;
+    /* object-position: 50% 50%; */
+}
+
+.dirty img{
+    margin: auto;
+    /* max-height: 300px; */
+}
+.dirty{
+    max-width: 500px;
+}
